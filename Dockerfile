@@ -1,6 +1,6 @@
 # Dockerfile for PHP
 
-FROM php:7.0-apache
+FROM devopsedu/webapp
 
 MAINTAINER sruthi
 
