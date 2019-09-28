@@ -7,9 +7,9 @@ MAINTAINER sruthi
 # copy our application in the image
 COPY . /var/www/php
 
-docker build -t php-app .
+#docker build -t php-app .
 
-docker run php-app
+#docker run php-app
 
 CMD apachectl -D FOREGROUND
 
