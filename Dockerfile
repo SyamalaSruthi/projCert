@@ -2,7 +2,7 @@
 
 FROM devopsedu/webapp
 
-MAINTAINER sruthi
+MAINTAINER "sruthi"
 
 # copy our application in the image
 COPY . /var/www/php
